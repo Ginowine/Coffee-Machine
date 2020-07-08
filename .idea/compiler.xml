@@ -12,6 +12,8 @@
       <module name="Problems-From_0_to_4_test" target="11" />
       <module name="Problems-Printing_a_magic_letter_main" target="11" />
       <module name="Problems-Printing_a_magic_letter_test" target="11" />
+      <module name="Problems-Printing_each_word_in_a_new_line_main" target="11" />
+      <module name="Problems-Printing_each_word_in_a_new_line_test" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_main" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
       <module name="util_main" target="11" />
