@@ -22,7 +22,5 @@ public class CoffeeMachine {
         System.out.println(totalAmountOfMilk + " " + "ml of milk");
         System.out.println(totalAmountOfCoffeeBeans + " " + "g of coffee beans");
 
-
-
     }
 }
