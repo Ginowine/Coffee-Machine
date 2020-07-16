@@ -12,3 +12,4 @@ content:
 - Check prefix ignoring the case
 - Comparing strings ignoring whitespaces
 - Check the value
+- Check the sum
