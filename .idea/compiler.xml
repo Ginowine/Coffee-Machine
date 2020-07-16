@@ -4,6 +4,10 @@
     <bytecodeTargetLevel>
       <module name="Coffee_Machine-task_main" target="11" />
       <module name="Coffee_Machine-task_test" target="11" />
+      <module name="Problems-Check_prefix_ignoring_the_case_main" target="11" />
+      <module name="Problems-Check_prefix_ignoring_the_case_test" target="11" />
+      <module name="Problems-Comparing_strings_ignoring_whitespaces_main" target="11" />
+      <module name="Problems-Comparing_strings_ignoring_whitespaces_test" target="11" />
       <module name="Problems-Decrement_all_main" target="11" />
       <module name="Problems-Decrement_all_test" target="11" />
       <module name="Problems-Digits_from_0_to_9_in_a_single_line_main" target="11" />

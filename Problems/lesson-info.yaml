@@ -9,3 +9,5 @@ content:
 - Decrement all
 - Extracting a substring
 - Replacing 'a' with 'b'
+- Check prefix ignoring the case
+- Comparing strings ignoring whitespaces
