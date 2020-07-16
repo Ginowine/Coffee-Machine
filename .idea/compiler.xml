@@ -6,6 +6,8 @@
       <module name="Coffee_Machine-task_test" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_main" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_test" target="11" />
+      <module name="Problems-Check_the_given_numbers_are_different_main" target="11" />
+      <module name="Problems-Check_the_given_numbers_are_different_test" target="11" />
       <module name="Problems-Check_the_sum_main" target="11" />
       <module name="Problems-Check_the_sum_test" target="11" />
       <module name="Problems-Check_the_value_main" target="11" />
