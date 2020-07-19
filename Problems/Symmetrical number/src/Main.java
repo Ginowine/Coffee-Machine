@@ -5,19 +5,16 @@ class Main {
         // put your code here
 
         Scanner sr = new Scanner(System.in);
-        String s = sr.next();
-        int a = Integer.parseInt(s);
+        int n = sr.nextInt();
+        int d1 = n / 1000;
+        int d2 = n / 100 % 10;
+        int d3 = n / 10 % 10;
+        int d4 = n % 10;
 
-        int x4 = a/1000;
-        int x3 = a%1000/100;
-        int x2 = a%100/10;
-        int x1 = a%10;
-
-        if ((10*x4+x3)==(10*x1+x2))
-            System.out.print(1);
-        else
-            System.out.print(2);
-
-
+        if (d1 == d4 && d2 == d3) {
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
     }
 }
