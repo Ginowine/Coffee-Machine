@@ -40,6 +40,8 @@
       <module name="Problems-Symmetrical_number_test" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_main" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
+      <module name="Problems-The_roots_of_an_equation_main" target="11" />
+      <module name="Problems-The_roots_of_an_equation_test" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>
