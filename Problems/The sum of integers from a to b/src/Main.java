@@ -8,15 +8,12 @@ class Main {
 
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int c = scanner.nextInt();
-        int d = scanner.nextInt();
+        int sum = 0;
 
-        for (int x = 0; x < 1000; x++ ){
-            int root = a * x * x * x + b * x * x + c * x + d;
-
-            if (root == 0){
-                System.out.println(x);
-            }
+        for (int i = a; i <= b; i++){
+            sum += i;
         }
+
+        System.out.println(sum);
     }
 }
