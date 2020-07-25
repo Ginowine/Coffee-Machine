@@ -42,6 +42,8 @@
       <module name="Problems-Replacing_'a'_with_'b'_test" target="11" />
       <module name="Problems-Symmetrical_number_main" target="11" />
       <module name="Problems-Symmetrical_number_test" target="11" />
+      <module name="Problems-The_largest_element_of_a_sequence_main" target="11" />
+      <module name="Problems-The_largest_element_of_a_sequence_test" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_main" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
       <module name="Problems-The_roots_of_an_equation_main" target="11" />
