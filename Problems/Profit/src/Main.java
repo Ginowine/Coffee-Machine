@@ -15,6 +15,7 @@ public class Main {
             moneyInBank = moneyInBank + moneyInBank * (interest/100);
             numberOfYears = numberOfYears+1;
         }
+
         System.out.println(numberOfYears);
     }
 }
