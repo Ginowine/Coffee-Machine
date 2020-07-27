@@ -6,6 +6,8 @@
       <module name="Coffee_Machine-task_test" target="11" />
       <module name="Problems-Arithmetic_average_main" target="11" />
       <module name="Problems-Arithmetic_average_test" target="11" />
+      <module name="Problems-Bus_tour_main" target="11" />
+      <module name="Problems-Bus_tour_test" target="11" />
       <module name="Problems-Check_a_number_is_positive_main" target="11" />
       <module name="Problems-Check_a_number_is_positive_test" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_main" target="11" />
