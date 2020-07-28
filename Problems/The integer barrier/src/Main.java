@@ -8,21 +8,16 @@ class Main {
         int value = 0;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter an int value (the program calculates the sum if the input is 0): ");
         int number = scanner.nextInt();
 
         while (number != 0){
             sum += number;
-
-            System.out.println("Enter an int value (the program exits if the input is 0): ");
             number = scanner.nextInt();
+            if (sum >= 1000){
+                sum = sum - 1000;
+            }
         }
-        System.out.println("The sum is:" + sum);
+        System.out.println(sum);
 
-        if(sum >= 1000){
-            value = sum - 1000;
-        }
-
-        System.out.println(value);
     }
 }
