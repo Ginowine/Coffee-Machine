@@ -58,6 +58,8 @@
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
       <module name="Problems-The_roots_of_an_equation_main" target="11" />
       <module name="Problems-The_roots_of_an_equation_test" target="11" />
+      <module name="Problems-The_sequence__1__main" target="11" />
+      <module name="Problems-The_sequence__1__test" target="11" />
       <module name="Problems-The_sequence_main" target="11" />
       <module name="Problems-The_sequence_test" target="11" />
       <module name="Problems-The_sum_of_elements_main" target="11" />
