@@ -50,6 +50,8 @@
       <module name="Problems-Squares_of_natural_numbers_test" target="11" />
       <module name="Problems-Symmetrical_number_main" target="11" />
       <module name="Problems-Symmetrical_number_test" target="11" />
+      <module name="Problems-Test_learners_main" target="11" />
+      <module name="Problems-Test_learners_test" target="11" />
       <module name="Problems-The__un_-ordered_sequence_main" target="11" />
       <module name="Problems-The__un_-ordered_sequence_test" target="11" />
       <module name="Problems-The_integer_barrier_main" target="11" />
