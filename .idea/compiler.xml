@@ -28,6 +28,8 @@
       <module name="Problems-Decrement_all_test" target="11" />
       <module name="Problems-Digits_from_0_to_9_in_a_single_line_main" target="11" />
       <module name="Problems-Digits_from_0_to_9_in_a_single_line_test" target="11" />
+      <module name="Problems-Division_main" target="11" />
+      <module name="Problems-Division_test" target="11" />
       <module name="Problems-Even_or_odd_main" target="11" />
       <module name="Problems-Even_or_odd_test" target="11" />
       <module name="Problems-Extracting_a_substring_main" target="11" />
