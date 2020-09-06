@@ -11,7 +11,7 @@ class Main {
         int sizeOfArray = scanner.nextInt();
         int[] numbers = new int[sizeOfArray];
 
-        for (int i = 0; i < sizeOfArray; i++){
+        for (int i = 0; i < numbers.length; i++){
             numbers[i] = scanner.nextInt();
         }
         n = scanner.nextInt();
