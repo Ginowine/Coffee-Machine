@@ -14,6 +14,8 @@
       <module name="Problems-Calculating_factorials_test" target="11" />
       <module name="Problems-Check_a_number_is_positive_main" target="11" />
       <module name="Problems-Check_a_number_is_positive_test" target="11" />
+      <module name="Problems-Check_if_an_array_contains_two_numbers_main" target="11" />
+      <module name="Problems-Check_if_an_array_contains_two_numbers_test" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_main" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_test" target="11" />
       <module name="Problems-Check_the_given_numbers_are_different_main" target="11" />
