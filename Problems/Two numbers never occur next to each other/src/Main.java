@@ -3,26 +3,30 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         // put your code here
+        final Scanner scanner = new Scanner(System.in);
+        final int len = scanner.nextInt();
 
-        Scanner scanner = new Scanner(System.in);
-        boolean var = true;
-
-        int sizeOfArray = scanner.nextInt();
-        int[] unsortedArray = new int[sizeOfArray];
-        for (int i = 0; i < sizeOfArray; i++){
-            unsortedArray[i] = scanner.nextInt();
+        final int[] array = new int[len];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = scanner.nextInt();
         }
-        int n = scanner.nextInt();
-        int m = scanner.nextInt();
 
-        for (int i = 0; i < unsortedArray.length -1; i++){
-            if (unsortedArray[i] == n && unsortedArray[i + 1] == m || unsortedArray[i] == m && unsortedArray[i + 1] == n){
-                var = false;
+        final int n = scanner.nextInt();
+        final int m = scanner.nextInt();
+
+        boolean neverOccur = true;
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] == n && array[i + 1] == m) {
+                neverOccur = false;
+                break;
+            }
+            if (array[i] == m && array[i + 1] == n) {
+                neverOccur = false;
                 break;
             }
         }
 
-        System.out.println(var);
+        System.out.println(neverOccur);
 
     }
 }
