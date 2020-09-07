@@ -74,6 +74,8 @@
       <module name="Problems-The_integer_barrier_test" target="11" />
       <module name="Problems-The_largest_element_of_a_sequence_main" target="11" />
       <module name="Problems-The_largest_element_of_a_sequence_test" target="11" />
+      <module name="Problems-The_longest_ascending_sequence_main" target="11" />
+      <module name="Problems-The_longest_ascending_sequence_test" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_main" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
       <module name="Problems-The_roots_of_an_equation_main" target="11" />
