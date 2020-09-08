@@ -36,6 +36,8 @@
       <module name="Problems-Comparing_strings_ignoring_whitespaces_test" target="11" />
       <module name="Problems-Count_how_many_times_a_number_occurs_main" target="11" />
       <module name="Problems-Count_how_many_times_a_number_occurs_test" target="11" />
+      <module name="Problems-Counter_main" target="11" />
+      <module name="Problems-Counter_test" target="11" />
       <module name="Problems-Decrement_all_main" target="11" />
       <module name="Problems-Decrement_all_test" target="11" />
       <module name="Problems-Digits_from_0_to_9_in_a_single_line_main" target="11" />
