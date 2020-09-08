@@ -108,6 +108,8 @@
       <module name="Problems-The_sum_of_elements_test" target="11" />
       <module name="Problems-The_sum_of_integers_from_a_to_b_main" target="11" />
       <module name="Problems-The_sum_of_integers_from_a_to_b_test" target="11" />
+      <module name="Problems-Too_many_cats_main" target="11" />
+      <module name="Problems-Too_many_cats_test" target="11" />
       <module name="Problems-Two_numbers_never_occur_next_to_each_other_main" target="11" />
       <module name="Problems-Two_numbers_never_occur_next_to_each_other_test" target="11" />
       <module name="util_main" target="11" />
