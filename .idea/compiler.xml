@@ -18,6 +18,8 @@
       <module name="Problems-Bus_tour_test" target="11" />
       <module name="Problems-Calculating_factorials_main" target="11" />
       <module name="Problems-Calculating_factorials_test" target="11" />
+      <module name="Problems-Car_main" target="11" />
+      <module name="Problems-Car_test" target="11" />
       <module name="Problems-Check_a_number_is_positive_main" target="11" />
       <module name="Problems-Check_a_number_is_positive_test" target="11" />
       <module name="Problems-Check_if_an_array_contains_two_numbers_main" target="11" />
