@@ -60,6 +60,8 @@
       <module name="Problems-Initializing_an_array_of_longs_test" target="11" />
       <module name="Problems-Leap_year_main" target="11" />
       <module name="Problems-Leap_year_test" target="11" />
+      <module name="Problems-Preparing_full_name_main" target="11" />
+      <module name="Problems-Preparing_full_name_test" target="11" />
       <module name="Problems-Printing_a_magic_letter_main" target="11" />
       <module name="Problems-Printing_a_magic_letter_test" target="11" />
       <module name="Problems-Printing_each_word_in_a_new_line_main" target="11" />
