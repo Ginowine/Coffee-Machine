@@ -8,6 +8,8 @@
       <module name="Problems-A_simple_calculator_test" target="11" />
       <module name="Problems-Arithmetic_average_main" target="11" />
       <module name="Problems-Arithmetic_average_test" target="11" />
+      <module name="Problems-Book_main" target="11" />
+      <module name="Problems-Book_test" target="11" />
       <module name="Problems-Bus_tour_main" target="11" />
       <module name="Problems-Bus_tour_test" target="11" />
       <module name="Problems-Calculating_factorials_main" target="11" />
