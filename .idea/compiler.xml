@@ -40,6 +40,8 @@
       <module name="Problems-Count_how_many_times_a_number_occurs_test" target="11" />
       <module name="Problems-Counter_main" target="11" />
       <module name="Problems-Counter_test" target="11" />
+      <module name="Problems-Danger_levels_main" target="11" />
+      <module name="Problems-Danger_levels_test" target="11" />
       <module name="Problems-Days_of_week_main" target="11" />
       <module name="Problems-Days_of_week_test" target="11" />
       <module name="Problems-Decrement_all_main" target="11" />
