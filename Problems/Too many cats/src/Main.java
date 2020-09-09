@@ -12,6 +12,7 @@ class Cat {
         this.name = name;
         this.age = age;
         counter++;
+
         if (counter > 5){
             System.out.println("You have too many cats");
         }
