@@ -2,49 +2,30 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        // put your code here
-        Scanner scanner = new Scanner(System.in);
-        int rows = scanner.nextInt();
-        int seats = scanner.nextInt();
-        String[][] cinema = new String[rows][seats];
-
-        //create "cinema" matrix"
-        for (int r = 0; r < rows; r++) {
-            for (int s = 0; s < seats; s++) {
-                cinema[r][s] = scanner.next();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int[][] matrix = new int[n][n];
+        int current = 1;
+        int passes = 0;
+        while (current <= n * n) {
+            for (int i = passes; i < n - passes; i++) {
+                matrix[passes][i] = current++;
+            }
+            for (int j = passes + 1; j < n - passes; j++) {
+                matrix[j][n - 1 - passes] = current++;
+            }
+            for (int k = n - 1 - passes; k > passes; k--) {
+                matrix[n - 1 - passes][k - 1] = current++;
+            }
+            for (int m = n - 1 - passes; m > 1 + passes; m--) {
+                matrix[m - 1][passes] = current++;
+            }
+            passes++;
+        }
+        for (int[] ints : matrix) {
+            for (int j = 0; j < ints.length; j++) {
+                System.out.print(j + 1 == n ? ints[j] + "\n" : ints[j] + " ");
             }
         }
-        //find consecutive seats, k
-        int k = scanner.nextInt();
-
-        //whatRow will be the marker when the correct row is found
-        int positiveRow = 0;
-        //loop over rows
-        rowloop: for (int r = 0; r < rows; r++) {
-            //loop over all the seats in a row
-            for (int s = 0; s < seats; s++) {
-                int counter = 0;
-                //the positive counter will flag when there's two consecutive 0s.
-                int positive = 0;
-                //loop the number of times k past each seat.
-                while (counter < k) {
-                    if (cinema[r][s] == "0" && cinema[r][s + counter] == "0") {
-                        positive++;
-                        if (positive == k) {
-                            positiveRow = r;
-                            break rowloop;
-                        }
-                    } else {
-                        positive = 0;
-                        break;
-                    }
-                    counter++;
-                }
-
-            }
-
-        }
-        System.out.println(positiveRow+1);
-
     }
 }
