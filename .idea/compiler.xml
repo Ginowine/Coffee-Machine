@@ -90,6 +90,8 @@
       <module name="Problems-Shape_test" target="11" />
       <module name="Problems-Simulating_a_clock_main" target="11" />
       <module name="Problems-Simulating_a_clock_test" target="11" />
+      <module name="Problems-Spiral_main" target="11" />
+      <module name="Problems-Spiral_test" target="11" />
       <module name="Problems-Squares_of_natural_numbers_main" target="11" />
       <module name="Problems-Squares_of_natural_numbers_test" target="11" />
       <module name="Problems-Symmetric_matrix_main" target="11" />
@@ -118,6 +120,8 @@
       <module name="Problems-The_sequence_test" target="11" />
       <module name="Problems-The_sign_of_a_number_main" target="11" />
       <module name="Problems-The_sign_of_a_number_test" target="11" />
+      <module name="Problems-The_star_figure_main" target="11" />
+      <module name="Problems-The_star_figure_test" target="11" />
       <module name="Problems-The_sum_of_elements_main" target="11" />
       <module name="Problems-The_sum_of_elements_test" target="11" />
       <module name="Problems-The_sum_of_integers_from_a_to_b_main" target="11" />
