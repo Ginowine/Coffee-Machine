@@ -54,6 +54,8 @@
       <module name="Problems-Even_or_odd_test" target="11" />
       <module name="Problems-Extracting_a_substring_main" target="11" />
       <module name="Problems-Extracting_a_substring_test" target="11" />
+      <module name="Problems-Fill_the_matrix_by_numbers_main" target="11" />
+      <module name="Problems-Fill_the_matrix_by_numbers_test" target="11" />
       <module name="Problems-First,_second,_third_main" target="11" />
       <module name="Problems-First,_second,_third_test" target="11" />
       <module name="Problems-From_0_to_4_main" target="11" />
@@ -80,6 +82,8 @@
       <module name="Problems-Project_constants_and_methods_test" target="11" />
       <module name="Problems-Replacing_'a'_with_'b'_main" target="11" />
       <module name="Problems-Replacing_'a'_with_'b'_test" target="11" />
+      <module name="Problems-Robot_control_main" target="11" />
+      <module name="Problems-Robot_control_test" target="11" />
       <module name="Problems-Shape_main" target="11" />
       <module name="Problems-Shape_test" target="11" />
       <module name="Problems-Simulating_a_clock_main" target="11" />
@@ -102,6 +106,8 @@
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
       <module name="Problems-The_roots_of_an_equation_main" target="11" />
       <module name="Problems-The_roots_of_an_equation_test" target="11" />
+      <module name="Problems-The_secret_enumeration_main" target="11" />
+      <module name="Problems-The_secret_enumeration_test" target="11" />
       <module name="Problems-The_sequence__1__main" target="11" />
       <module name="Problems-The_sequence__1__test" target="11" />
       <module name="Problems-The_sequence_main" target="11" />
