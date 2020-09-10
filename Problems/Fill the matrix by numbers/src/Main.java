@@ -5,19 +5,20 @@ class Main {
         // put your code here
 
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        scanner.close(); // remember to close all your resources!
-        int[][] array = new int[n][n];
-
-        for (int i = 0; i < n; i++) { //iterate over rows
-            for (int j = 0; j < n; j++) { //iterate over columns
-                array[i][j] = Math.abs(j - i); //calculate cell's value
+        int number = scanner.nextInt();
+        int[][] matrix = new int[number][number];
+        int index = 0;
+        for (int i = 0; i < matrix.length; i++) {
+            int fillNumber = index;
+            for (int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] = Math.abs(fillNumber--);
             }
+            index++;
         }
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++){
-                System.out.print(array[i][j] + " ");
+        for (int[] array : matrix) {
+            for (int i : array) {
+                System.out.print(i + " ");
             }
             System.out.println();
         }
